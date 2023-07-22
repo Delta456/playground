@@ -116,6 +116,7 @@ export const hashDirectives: Set<string> = new Set<string>([
     "#flag",
     "#include",
     "#pkgconfig",
+    "#define",
 ])
 
 export const atoms: Set<string> = new Set<string>([
@@ -124,6 +125,8 @@ export const atoms: Set<string> = new Set<string>([
     "nil",
     "print",
     "println",
+    "eprintln",
+    "eprint",
     "exit",
     "panic",
     "error",
@@ -151,6 +154,9 @@ export const builtinTypes: Set<string> = new Set<string>([
     "usize",
     "voidptr",
     "any",
+    "byteptr",
+    "voidptr",
+    "char",
 ])
 
 // @ts-ignore
